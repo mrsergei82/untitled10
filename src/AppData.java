@@ -1,4 +1,5 @@
 import java.io.Serializable;
+import java.io.Serializable;
 import java.util.Arrays;
 
 public class AppData implements Serializable {
@@ -30,7 +31,7 @@ public class AppData implements Serializable {
     public String toString() {
         return
                 Arrays.toString(header) +"\n"+
-                 Arrays.toString(data)
+                        Arrays.toString(data)
                 ;
     }
 }
